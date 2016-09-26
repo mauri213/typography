@@ -1,83 +1,80 @@
 h1 {
+	font-family: sans-serif;
 	text-align: center;
-	font-size: 28px;
-	font-family: arial;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+.entry-details {
+	text-align: center;
 }
 
 time:before {
-	content: "\2022";
+	content: "\2027";
 	padding-right: 5px;
 }
 
 span a {
-	color: blue;
-	text-decoration: none;
-	font-family: arial;
-	font-size: 14px;
 	font-weight: bold;
 }
-header p {
+
+.entry-metaoptional-break a {
+	text-align: center;
+}
+
+.entry-metaoptional-break {
 	text-align: center;
 	font-size: 14px;
-	font-family: arial;
 }
-.sp1, .sp2 {
-	color: blue;
+.main-content a {
 	text-decoration: none;
-	font-size: 13px;
-}
-
-div p{
-	font-family: serif;
-	text-indent: inherit;
-	padding-left: 100px;
-}
-
-#dp1 {
-	font-size: 24px;
 	font-weight: bold;
+
 }
 
-#dpa, #gf, #dppa, #yd, #tw, #tmp, #ssr, #me, #bs, #gt, #av, #mee, #iv, #ow, #dz, #itb, #ta, #hc, #os, #fl, #gpsi, #my,
-#ss, #fsp, #hdpf, #exc, #vtw, #ns, #fd, #ay {
-	color: blue;
-	text-decoration: none;
+div p:first-of-type {
+	font-size: 20px;
+	word-wrap: break-word;
+}
+div p {
+	word-wrap: break-word;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
-ol li {
-	list-style-position: inside;
-	padding-left: 100px;
+div ol {
+	padding-left: 90px;
 }
 
 h2 {
-	text-indent: inherit;
-	padding-left: 100px;
-	font-size: 24px;
-	color: red;
-}
-
-h3 {
-	padding-left: 100px;
-	text-indent: inherit;
-	font-size: 17px;
-	font-weight: bold;
-}
-.cu {
-	text-indent: inherit;
-	padding-left: 175px;
-}
-
-li a {
-	text-decoration: none;
-	color: black;
-}
-
-blockquote {
+	color: #b81d1d;
+	font-family: sans-serif;
 	padding-left: 50px;
 }
 
-figcaption {
-	font-style: italic;
-	font-size: 14px;
-	padding-left: 90px;
+h3 {
+	font-family: sans-serif;
+	padding-left: 50px;
 }
+
+ul a {
+	color: blue;
+	padding-left: 0;
+}
+div ul {
+	padding-left: 100px;
+
+}
+
+figcaption a {
+	font-size: 12px;
+	font-style: italic;
+}
+ figcaption {
+ 	font-size: 12px;
+ 	font-style: italic;
+ 	padding-left: 15px;
+ }
